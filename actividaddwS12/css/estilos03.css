@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial;
+}
+.element{
+    margin: 60px;
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    transform: translate(200px);
+    /*
+    1.- transform: translateX(200px)
+    2.- transform: translateY(-100px)
+    3.- transform: translate(200px,100px)
+    4.- transform: translate(200px,100px)
+    5.- transform: translateY(50px) translateX(20px)*/
+    /*
+    transition: rotate();
+    0 - 360 deg
+    0 - 400 grad
+    0 - 28319 rad 
+    0 - 1 turn
+    transition: 4s;
+    */
+    transition: 5s;
+}
+.element:hover{
+    /*width: 400px;*/
+    background-color: azure;
+    /*transform: rotate(100 turn);*/
+    /*transform: scaleX(1.5);
+    transform: scaleY(1.5);*/
+    transform: scale(1.5);
+    border-radius: 0 50px;
+}
+.element.h3{
+    text-align: center;
+    padding: 3px;
+}

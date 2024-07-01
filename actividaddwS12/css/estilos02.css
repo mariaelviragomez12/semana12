@@ -1,0 +1,16 @@
+@font-face {
+    font-family: Playwrite;
+    src: url('../fuente/PlaywriteNZ-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: BebasN;
+    src: url('../fuente/BebasNeue-Regular.ttf');
+}
+h3{
+    font-family: Playwrite,cursive;
+    color: green;
+    font-size: 32px;
+}
+p{
+    font-family: BebasN;
+}
